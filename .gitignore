@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+target/
+data/
+.env
+.DS_Store
+
+# IDE 설정 (IntelliJ 실행 설정에 JWT_SECRET이 저장되므로 제외)
+.idea/
+*.iml
+.vscode/
+
+# 사용하지 않는 템플릿
+frontend-vue/
+backend-express/
+backend-fastapi/
+
+# SQLite DB와 로그
+*.sqlite
+*.log

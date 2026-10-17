@@ -1,0 +1,146 @@
+:root {
+  font-family:
+    system-ui,
+    -apple-system,
+    "Apple SD Gothic Neo",
+    sans-serif;
+  color: #17233a;
+  background: #f2f5f9;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 36px 24px 60px;
+}
+header {
+  margin-bottom: 24px;
+}
+h1 {
+  font-size: 32px;
+  margin: 8px 0;
+  letter-spacing: -0.04em;
+}
+h2 {
+  font-size: 19px;
+  margin-top: 0;
+}
+p {
+  line-height: 1.65;
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: #416198;
+  font-weight: 700;
+}
+.banner {
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: #fff1d5;
+  color: #654c16;
+  line-height: 1.6;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.card {
+  background: white;
+  border: 1px solid #dfe5ee;
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 14px 0;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #b9c5d6;
+  border-radius: 7px;
+  padding: 11px;
+  margin-top: 7px;
+  font: inherit;
+}
+textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+button {
+  background: #2455ad;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+  padding: 10px 14px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+}
+button.secondary {
+  background: #e9eef7;
+  color: #27416c;
+}
+button.danger {
+  background: #b83b47;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.post {
+  border-top: 1px solid #e5e9f0;
+  padding: 15px 0;
+}
+.post:first-of-type {
+  border-top: 0;
+}
+.post-title {
+  padding: 0;
+  color: #234d94;
+  background: transparent;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+}
+small,
+.muted {
+  color: #61718a;
+}
+.message {
+  background: #e6eefb;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin: 16px 0;
+  min-height: 46px;
+}
+.content {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 760px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  main {
+    padding: 24px 16px;
+  }
+}
