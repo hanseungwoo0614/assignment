@@ -1,4 +1,4 @@
-[README (2).md](https://github.com/user-attachments/files/33592342/README.2.md)
+
 # 오늘의 학습 기록 — JWT 인증 게시판
 
 웹서비스설계 개인 과제입니다. 누구나 학습 기록을 읽을 수 있고, 로그인한 사용자만 글을 작성하며, 본인이 쓴 글만 수정·삭제할 수 있는 게시판입니다.
