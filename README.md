@@ -52,7 +52,7 @@
 |---|---|
 | 운영체제 | Windows 11 |
 | 프론트 런타임 Node.js | v24.21.0 |
-| 백엔드 런타임 | JDK 25.0.4.1 (Eclipse Temurin) |
+| 백엔드 런타임 | JDK 21.0.12.1 (Eclipse Temurin) |
 | 프레임워크 | Spring Boot 3.5.16, JJWT 0.13.0, React 19.3.0, Vite 8.3.4 |
 | 데이터 저장 | SQLite (sqlite-jdbc 3.51.3.0) |
 
@@ -149,11 +149,11 @@ npm run preview
 
 | 검사 | 결과 |
 |---|---|
-| `check_api.py --mode final` | 미확인 |
-| `check_api.py --mode final --expiry` | 미확인 |
-| 백엔드 재시작 후 데이터 유지 (T15) | 미확인 |
-| 빌드본(4173) 로그인·글쓰기·API 연결 | 미확인 |
-| 새 폴더 clone 후 README대로 실행 | 미확인 |
+| `check_api.py --mode final` | 통과 (40/40) |
+| `check_api.py --mode final --expiry` | 통과 (48/48) |
+| 백엔드 재시작 후 데이터 유지 (T15) | 통과 |
+| 빌드본(4173) 로그인·글쓰기·API 연결 | 통과 |
+| 새 폴더 clone 후 README대로 실행 | 통과 |
 
 ## 핵심 구현 설명
 
