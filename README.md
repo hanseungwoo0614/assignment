@@ -170,7 +170,7 @@ npm run preview
 - 반영 위치:
   - `backend-spring/.../AuthService.java` 생성자, `issueToken`, `currentUserId`, `bearerToken`, `assertOwner` — AI 초안을 단계별(BE-01→BE-02→BE-03)로 설명받으며 그대로 반영
   - `frontend-react/src/api.js` `authorizationHeaders`, `request` 오류 처리, `login`, `canEdit` — AI 초안 적용
-  - `frontend-react/src/main.jsx` 서비스 안내 문구 — AI 제안 문구 적용
+  - `frontend-react/src/main.jsx` 서비스 안내 문구 —
   - 이 README 초안 — AI 작성 후 본인이 실제 결과로 보완
 - 검증: PowerShell 요청과 브라우저 Network로 직접 확인, `tools/check_api.py` 실행 (결과는 위 표)
 - 상세 활용 기록: 보고서 5절
