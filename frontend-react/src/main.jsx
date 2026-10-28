@@ -49,8 +49,8 @@ function App() {
     <main>
       <header>
         <span className="eyebrow">WEB SERVICE DESIGN · JWT BOARD</span> {/* 수정 */}
-        <h1>오늘의 학습 기록</h1> {/* 수정 */}
-        <p className="muted">공부한 내용을 기록하고 서로의 학습 과정을 나누는 게시판입니다.</p> {/* 수정 */}
+        <h1>오늘의 학습 기록</h1> 
+        <p className="muted">공부한 내용을 기록하고 서로의 학습 과정을 나누는 게시판입니다.</p> 
       </header>
       <p className="banner">
         {/* 수정 (FE-04) 데모 배너 → 서비스 안내 */}
